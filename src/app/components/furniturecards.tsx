@@ -16,10 +16,10 @@ const FurnitureCards: React.FC<propsTypes> = ({
 }) => {
   const numericPrice = parseInt(price.replace("$", ""));
   return (
-    <div className="px-4 border-gray-800 rounded-xl max:w-[400px] font-sans">
+    <div className="px-4 border-gray-800 rounded-xl max:w-[400px] font-sans ">
       <div className="container bg-slate-100">
         <Image
-          className="w-[300px] h-[300px] sm:w-full object-cover rounded-lg"
+          className="w-[400px] h-[400px] sm:w-full object-cover rounded-lg"
           src={img}
           alt={name}
           width={200}
