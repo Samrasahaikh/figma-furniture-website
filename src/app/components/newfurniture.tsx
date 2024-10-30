@@ -52,7 +52,7 @@ const FurnitureData = [
   },
   {
     img: "/bed3.jpg",
-    name: "Single Size Bed",
+    name: "King Size Bed",
     description: "Comfortable bed.",
     price: "$2,000",
   },
@@ -79,7 +79,7 @@ const FurnitureData = [
 const Newfurniture = () => {
   return (
     <div>
-      <div className="container bg-gray-200 pt-4 font-sans max-w-screen-2xl">
+      <div className="container bg-gray-200 pt-4 font-sans max-w-screen-2xl ">
         <h2 className="font-medium text-2xl pb-4 text-center text-yellow-900">
           Our Furniture Collection
         </h2>

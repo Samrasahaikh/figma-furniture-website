@@ -17,7 +17,7 @@ export default function Hero() {
       id: 0,
       img: "/banner01.jpg",
       title: "LUXURY FURNITURE",
-      mainTitle: "Your style is your own shape it as you wish",
+      mainTitle: "Style is your own shape it as you wish",
       price: "$470",
     },
     {
@@ -37,7 +37,7 @@ export default function Hero() {
   ];
   return (
     <div>
-      <div className="container pt-2 lg:pt-0 max-w-screen-2xl">
+      <div className="container pt-2 lg:pt-0 max-w-screen-2xl animation animate-fadeIn">
         <Slider {...settings}>
           {sliderData.map((item) => (
             <Slide

@@ -6,7 +6,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function Navbar() {
   return (
-    <div className="bg-gray-200 hidden lg:block md:w-full  ">
+    <div className="bg-gray-200 hidden lg:block md:w-full animate-fadeIn">
       <div className="container sm:flex justify-between items-center max-w-screen-2xl">
         <div className="font-bold text-3xl pb-4 sm:pb-0 text-black font-serif">
           {" "}
